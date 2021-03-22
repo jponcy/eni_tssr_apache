@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cheatsheet</title>
+</head>
+
+<body>
+  <!-- Partie en-tête (à ne pas confondre avec la balise head). -->
+  <header>
+    <img src="https://http.cat/401" alt="Chat interdit">
+    <nav>
+      <ul>
+        <li><a href="index.html">Index du site</a></li>
+        <li><a href="page1.html">Première page (un peu en vrac)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Voici notre site</h1>
+
+    <section>
+      <article>
+        <h1>Les balises block</h1>
+
+        <p>
+          Les balises blocks sont des balises qui prennent de base toute la largeur de l'écran et qui provoquent un "retour chariot" visuel sur le navigateur. L'élement block prend donc toute la ligne (par défaut).
+        </p>
+
+        <p>
+          Voici quelques balises blocks :
+        </p>
+        <dl>
+          <dt>h[1-6]</dt>
+          <dd>titre de niveaux 1 à 6 ; 1 est le titre de la page (ou de l'article/section)</dd>
+
+          <dt>p</dt>
+          <dd>déclare un paragraphe</dd>
+
+          <dt>ul</dt>
+          <dd>déclare une liste <strong>non ordonnée</strong> (le type de puce pourra être personalisé en CSS, entre autre choses)</dd>
+
+          <dt>ol</dt>
+          <dd>déclare une liste <strong>ordonnée</strong> (le type de puce pourra être personalisé en CSS, entre autre choses)</dd>
+
+          <dt>dl (dt/dd)</dt>
+          <dd>liste de définitions (style dictionnaire/glossaire)</dd>
+
+          <dt>img</dt>
+          <dd>place une image</dd>
+
+          <dt>article/section/main/header/footer/...</dt>
+          <dd>balises structurantes</dd>
+
+          <dt>div</dt>
+          <dd>balise neutre (permet de placer une balise block sans aucun sens sémantique)</dd>
+        </dl>
+      </article>
+
+      <article>
+        <h1>Les balises inline</h1>
+
+        <p>
+          Permettent de décrire ou d'ajouter des attributs sur une portion de code.
+          <br>
+          Une balise inline ne doit jamais contenir une balise de type block.
+        </p>
+
+        <pre>
+          <p>Bonjour <strong>Jean</strong>, comment ça va ?</p>
+        </pre>
+
+        <p>
+          Principales balises inline :
+        </p>
+        <dl>
+          <dt>a</dt>
+          <dd>lien (externe/interne/ancrage/ressource à télécharger/envoi email/...)</dd>
+
+          <dt>mark>strong>em</dt>
+          <dd>permettent de décrire un bout de phrase comme important</dd>
+
+          <dt>span</dt>
+          <dd>balise neutre (permet de placer une balise inline sans aucun sens sémantique)</dd>
+        </dl>
+      </article>
+    </section>
+  </main>
+
+  <!-- <footer></footer> -->
+</body>
+
+</html>
