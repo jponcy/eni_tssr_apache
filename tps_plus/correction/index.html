@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des produits</title>
+</head>
+<body>
+    <h1>Liste des produits</h1>
+
+    <!-- Pas faire un truc comme ça :
+    Produit 1
+    <br>
+    Produit 2
+    <br>
+    Produit 3 -->
+
+    <p> On pourrait faire une liste (ne répond pas à la consigne). </p>
+    <ul>
+        <li>Mug super maman &rarr; 5€</li>
+        <li>Mug Batman &rarr; 5.4€</li>
+        <li>Mug Hello Kitty &rarr; 14€</li>
+    </ul>
+
+    <p>
+        Ne pas hésiter à vérifier la validité des codes HTML en utilisant le <a href="https://validator.w3.org/nu/#textarea">validator.w3</a>
+    </p>
+
+    <!--
+    Quelques abus possibles sur les listes (à ne pas faire);
+    <ul>
+        <li>premier
+        <li>deuxième
+        <li>troisième
+    </ul>
+
+    <li>
+        Coucou
+        <li>toto</li>
+        <li>titi</li>
+    </li>
+    <li>Salut</li>
+    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste voluptatum hic molestias cumque sit beatae nostrum placeat aperiam, illo eos, tempore voluptate architecto voluptates quod! Animi voluptas ad officiis nam.</li> -->
+
+    <p>
+        On aurait aussi pu utiliser un tableau HTML (non vu en cours et ne réponds pas vraiment à la consigne) :
+    </p>
+    <table>
+        <tr>
+            <th>Nom du produit</th>
+            <th>Prix (€)</th>
+        </tr>
+        <tr>
+            <td>Mug super maman</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Mug Batman</td>
+            <td>5.4</td>
+        </tr>
+        <tr>
+            <td>Mug Hello Kitty </td>
+            <td>14</td>
+        </tr>
+    </table>
+
+    <p>
+        Produit représenté avec une div (solution conservé).
+    </p>
+
+    <section>
+        <div>
+            <h2>Produit n°1</h2>
+            <p>
+                <a href="produit1.html">Mug super maman</a> à <small>5€</small>.
+            </p>
+        </div>
+        <div>
+            <h2>Produit n°2</h2>
+            <p>
+                <a href="produit2.html">Mug Batman</a> à <small>5.4€</small>.
+            </p>
+        </div>
+        <div>
+            <h2>Produit n°3</h2>
+            <p>
+                <a href="produit3.html">Mug Hello Kitty</a> <small>14€</small>.
+            </p>
+        </div>
+    </section>
+</body>
+</html>
