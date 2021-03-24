@@ -1,0 +1,29 @@
+h1 {
+    font-size: 3em;
+    color: navy;
+}
+
+h2 {
+    font-size: 2em;
+    color: blue;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: rgba(0, 132, 255, 0.746);
+}
+
+.title {
+    font-style: italic;
+}
+
+body {
+    background-color: silver;
+    background-color: rgba(247, 0, 255, 0.123);
+}
+
+.link-arrow {
+    font-size: 3em;
+    text-decoration: none;
+    color: navy;
+}

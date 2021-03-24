@@ -1,0 +1,18 @@
+/* Feuille de style pour l'impression. */
+
+body {
+    /* Plus de fond de couleur (plus de rose). */
+    background-color: inherit;
+}
+
+.link-arrow {
+    /* Cacher la flèche (go to top). */
+    display: none;
+}
+
+p {
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+h2, h3 { color: black; }
